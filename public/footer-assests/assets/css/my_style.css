@@ -1,0 +1,69 @@
+.footer-head{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    align-content: center;
+
+}
+
+.footer-logo{
+    height: 55%;
+    scale: 1;
+    margin-top: 15px;
+    /* width: 100px; */
+}
+
+.footer-logo img{
+    height: 100%;
+}
+
+.grad-text, #testimonial .d-sm-block .fw-normal{
+    background: #121FCF;
+    background: radial-gradient(circle farthest-corner at center center, #dd13aa 0%, #e6a313 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background: #CF12A0;
+    background: linear-gradient(to right, #CF12A0 0%, #cf9312 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+}
+
+.grad-bg{
+    background: #E6A313;
+    background: linear-gradient(to top left, #E6A313 0%, #DD13AA 100%);
+    border-color:  #dd13ab10;
+}
+
+.btn{
+    border: none;
+}
+
+.footer-pera{
+    margin-left: 150px;
+    font-size: larger;
+    width: 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-pera {
+      margin-left: 0px;
+    }
+  }
+
+.hero-width{
+    width: 87%;
+    /* height: 70%; */
+}
+
+.fa-brands, .fa-solid, .fa-regular{
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #dd13abda;
+    background: linear-gradient(to bottom left, rgba(221, 19, 171, 0.877) 0%, #e6a313e5 100%);
+
+}

@@ -1,0 +1,211 @@
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-slide{
+    background-color: transparent;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(204, 200, 198);
+    
+}
+
+.right-slide{
+    width: 65%;
+    height: 100%;
+}
+
+.tracking {
+    background-color: rgb(204, 200, 198);
+    width: 300px;
+    padding: 10px;
+    padding-left: 2px;
+    height: 25vh;
+    border-left: #f16022be 2px solid;
+    border-top: #f16022be 2px solid;
+    margin-left: 10px;
+    overflow-x: scroll;
+}
+
+.date{
+    border-bottom: 2.5px solid #ffff;
+    padding: 20px;
+    height: 25vh;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.sender-box{
+    display: grid;
+    place-content: center;
+    width: 80%;
+    margin-top: 5vh;
+    
+}
+
+.receiver-box{
+    display: grid;
+    place-content: center;
+    width: 50%;
+    margin-top: 5vh;
+}
+
+.rooter{
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+}
+
+.payment-options{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #f1602293;
+
+}
+
+.rooter small{
+    width: 350px;
+    display: flex;
+    place-content: center;
+}
+
+.rooter a {
+    color: navy;
+}
+
+.payment_img{
+    width: 100%;
+    height: 100%;
+}
+
+.total{
+    display: grid;
+    place-content: center;
+    width: 80%;
+}
+
+.total-wrapper{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+@media screen and (max-width: 900px) {
+    /* *{
+        border: red solid 1px;
+    } */
+
+    .left-slide{
+        background-color: transparent;
+        width: 45%;
+        height: 100%;
+        background-color: rgb(204, 200, 198);
+    }
+    
+    .right-slide{
+        width: 55%;
+        height: 100%;
+    }
+
+    .rooter{
+        position: absolute;
+        bottom: 0;
+        width: 55%;
+        display: grid;
+        place-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .rooter small{
+        width: 300px;
+        display: flex;
+        place-content: center;
+    }
+
+    .total-wrapper{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 20px;
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    /* *{
+        border: red solid 1px;
+    } */
+
+    .sender-box .b, .receiver-box .b, .day span{
+        display: none;
+    }
+
+    .date {
+        padding: 5px;
+    }
+
+    .left-slide{
+        background-color: transparent;
+        width: 50%;
+        height: 100%;
+        background-color: rgb(204, 200, 198);
+    }
+    
+    .right-slide{
+        width: 50%;
+        height: 100%;
+    }
+
+    .sender-box{
+        display: grid;
+        place-content: center;
+        width: 100%;
+        margin-top: 5vh;
+        
+    }
+    
+    .receiver-box{
+        display: grid;
+        place-content: center;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .rooter{
+        position: absolute;
+        bottom: 0;
+        width: 55%;
+        display: grid;
+        place-content: center;
+        margin-bottom: 20px;
+        margin-left: -100px;
+    }
+    
+    .rooter small{
+        width: 300px;
+        display: flex;
+        place-content: center;
+    }
+
+
+    .total-wrapper{
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .tracking{
+        margin-left: 0px;
+        background-color: #ffff;
+        
+    }
+}
